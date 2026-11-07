@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "5l3xDyonqrA=",
+  "success": true,
+  "projectFilePath": "/home/dell/Learning/DotNet/AWSSNSDemo/OrderNotificationAPI/OrderNotificationAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/dell/.nuget/packages/awssdk.core/4.0.102.19/awssdk.core.4.0.102.19.nupkg.sha512",
+    "/home/dell/.nuget/packages/awssdk.signin/4.0.102.3/awssdk.signin.4.0.102.3.nupkg.sha512",
+    "/home/dell/.nuget/packages/awssdk.simplenotificationservice/4.0.100.25/awssdk.simplenotificationservice.4.0.100.25.nupkg.sha512",
+    "/home/dell/.nuget/packages/microsoft.aspnetcore.openapi/10.0.14/microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "/home/dell/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/home/dell/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512",
+    "/home/dell/.nuget/packages/swashbuckle.aspnetcore/10.3.1/swashbuckle.aspnetcore.10.3.1.nupkg.sha512",
+    "/home/dell/.nuget/packages/swashbuckle.aspnetcore.swagger/10.3.1/swashbuckle.aspnetcore.swagger.10.3.1.nupkg.sha512",
+    "/home/dell/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.3.1/swashbuckle.aspnetcore.swaggergen.10.3.1.nupkg.sha512",
+    "/home/dell/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.3.1/swashbuckle.aspnetcore.swaggerui.10.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

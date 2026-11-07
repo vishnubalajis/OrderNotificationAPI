@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "../../../.config/Code/User/workspaceStorage/6331cf812a4a83d069effe3bf066ecfe/ms-dotnettools.csdevkit/OrderNotificationAPI.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "../../../.config/Code/User/workspaceStorage/6331cf812a4a83d069effe3bf066ecfe/ms-dotnettools.csdevkit/OrderNotificationAPI.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/OrderNotificationAPI.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

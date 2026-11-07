@@ -1,0 +1,178 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OrderNotificationAPI/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Signin": "4.0.102.3",
+          "AWSSDK.SimpleNotificationService": "4.0.100.25",
+          "Microsoft.AspNetCore.OpenApi": "10.0.14",
+          "Swashbuckle.AspNetCore": "10.3.1"
+        },
+        "runtime": {
+          "OrderNotificationAPI.dll": {}
+        }
+      },
+      "AWSSDK.Core/4.0.102.19": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.102.19"
+          }
+        }
+      },
+      "AWSSDK.Signin/4.0.102.3": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.102.19"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Signin.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.102.3"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/4.0.100.25": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.102.19"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.100.25"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.14": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.12.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.14.0",
+            "fileVersion": "10.0.1426.52326"
+          }
+        }
+      },
+      "Microsoft.OpenApi/2.12.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.12.2.0",
+            "fileVersion": "2.12.2.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/10.3.1": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.3.1",
+          "Swashbuckle.AspNetCore.SwaggerGen": "10.3.1",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.3.1"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/10.3.1": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.12.2"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "10.3.1.0",
+            "fileVersion": "10.3.1.3201"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/10.3.1": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.3.1"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "10.3.1.0",
+            "fileVersion": "10.3.1.3201"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/10.3.1": {
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "10.3.1.0",
+            "fileVersion": "10.3.1.3201"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderNotificationAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/4.0.102.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hb6P2ui6y0U+UNUjcC4ASFFoTLzCijhMzfOCXfoFTXq/o0YWQsO1oSH1NG2GQ9dlIT693xeeih0yAcfeL1dphg==",
+      "path": "awssdk.core/4.0.102.19",
+      "hashPath": "awssdk.core.4.0.102.19.nupkg.sha512"
+    },
+    "AWSSDK.Signin/4.0.102.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EHhT6YMMXU+3mxj4KJg8XZajB/t2samNL7qvZqi/6b8isxD/FbJn5o2YkAIWRPMXfaRclaRQDzULIpWjMtK3tg==",
+      "path": "awssdk.signin/4.0.102.3",
+      "hashPath": "awssdk.signin.4.0.102.3.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/4.0.100.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LTXHKPNk3deUGBNUrTCmcM78s4Plx9YoH4jUXm2fmeTw8SHvjh9/Cwd86GVMIDLkv7WtdEGIUTDe43ONDM0/Kg==",
+      "path": "awssdk.simplenotificationservice/4.0.100.25",
+      "hashPath": "awssdk.simplenotificationservice.4.0.100.25.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3M6yO4nv8fmvM/1X7DqQcMxw/ptNLBcUzZt19SBEyfZF32gqZuwoPNnYd1xlDnFvQOGOkZDncf7p9E24blcTkQ==",
+      "path": "microsoft.aspnetcore.openapi/10.0.14",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.12.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZkT7qiJe0Kj0+DTZOZo+xrDy1kNmdsWFQVPIQLNx9ZJ0T9cB2LG7r+Bi60so8/+yg1nkS7QCPadrzsTG4VPKrA==",
+      "path": "microsoft.openapi/2.12.2",
+      "hashPath": "microsoft.openapi.2.12.2.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aCaJQAUxU2SZhN0lXqTfa+6/hJ7RdofjtbWu4oXSmsQ+z7WFJQvAAPrvn5rQI/ly8M/Vu381wtlbA1FUYseHPg==",
+      "path": "swashbuckle.aspnetcore/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.10.3.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZBsi9PZbuy25lUIs+4/V8pmuMqospRAX9zVmxzCm1ZRyKiXjsUL9YCyqdi7ezfDwxKuef6P0fUgVan9sLRcDJA==",
+      "path": "swashbuckle.aspnetcore.swagger/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.swagger.10.3.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DMamYj+m40rOgnGdAp+4iQ+NXIMup2oYVs/zIOZtal0Dar6CXjCF9/SkepEn42TKNO29wAx0xyLfOXj1VjEIXg==",
+      "path": "swashbuckle.aspnetcore.swaggergen/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.10.3.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kXuMIVJBDD6qMwG78VUrKy4x5Ke98HU0Q023Sf2iSBO/x45c5BuByYPAExIs9UeVsjdGGgvLWU5jK8l6MO2Z0Q==",
+      "path": "swashbuckle.aspnetcore.swaggerui/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.10.3.1.nupkg.sha512"
+    }
+  }
+}
